@@ -1,9 +1,6 @@
 <?php 
 
-// $uname = "erikafuerte";
-// $pass = "123456789";
-
-class Exercise4 {
+class Exercise5 {
     public function __construct($uname, $pass) {
         $this->uname = $uname;
          $this->pass = $pass;
