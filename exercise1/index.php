@@ -5,9 +5,9 @@ class HelloWorld
     
     public function hello() 
     {
-        echo "Hello World!";
+        echo "Hello, World!";
     }
 }
 
-$world = new Exercise_1;
+$world = new HelloWorld;
 $world->hello();
