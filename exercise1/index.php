@@ -1,6 +1,6 @@
 <?php
 
-class HelloWorld 
+class HelWorld 
 {
     public function hello() 
     {
