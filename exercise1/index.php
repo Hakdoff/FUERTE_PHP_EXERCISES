@@ -1,10 +1,10 @@
 <?php
 
-class HelWorld 
-{
+class HelloWorld {
+    
     public function hello() 
     {
-        echo "Hello, World!";
+        echo "Hello World!";
     }
 }
 
