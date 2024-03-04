@@ -1,3 +1,1 @@
- <?php   
-  include 'fiboView.php';
-?>
+<?php include 'FibonacciView.php';
