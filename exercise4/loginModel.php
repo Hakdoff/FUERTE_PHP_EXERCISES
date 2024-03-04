@@ -1,18 +1,20 @@
 <?php 
 
-// $uname = "erikafuerte";
-// $pass = "123456789";
+class Login 
+{
+    public function __construct($uname, $pass) 
+    {
+    	$this->uname = $uname;
+    	$this->pass = $pass;
+    }
 
-class Exercise4 {
-    public function __construct($uname, $pass) {
-        $this->uname = $uname;
-         $this->pass = $pass;
+    public function getUsername(): string 
+    {
+    	return $this->uname;
     }
-      public function get_uname() {
-        return $this->uname;
-    }
-      public function get_pass() {
-        
-        return $this->pass;
+
+    public function getPassword(): string  
+    {
+    	return $this->pass;
     }
 }
