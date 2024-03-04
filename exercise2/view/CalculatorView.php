@@ -1,11 +1,9 @@
-<?php include 'view/header.php'; 
-?>
-
+<?php include 'view/header.php'; ?>
 
 <div class= "calculator">
     <h1>Simple Calculator</h1>
 
-    <form action="" method="post">
+    <form action="" method="POST">
     <div class="input">
         <label for="num1"> Enter a Number: </label>
         <input type="number" id="num1" name="num1">
@@ -28,9 +26,7 @@
 
     <button class="submit" type="submit">Calculate</button>
     </form>
-     <h3><?php echo "Result: "; include 'model/calModel.php'?></h3>
+    <h3><?php echo "Result: "; include 'controller/CalculatorController.php'?></h3>
 </div>
-
-
 
 <?php include 'view/footer.php'?>

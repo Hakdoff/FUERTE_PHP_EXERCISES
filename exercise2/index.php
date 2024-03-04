@@ -1,1 +1,1 @@
-<?php include 'view/calView.php'?>
+<?php include 'view/CalculatorView.php';
