@@ -1,1 +1,1 @@
-<?php include 'arrayView.php' ?>
+<?php include 'arrayView.php';
