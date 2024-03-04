@@ -1,6 +1,7 @@
 <?php
 
-class HelloWorld {
+class HelloWorld 
+{
     
     public function hello() 
     {
