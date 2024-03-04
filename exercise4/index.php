@@ -1,1 +1,1 @@
-<?php include 'loginView.php'; 
+<?php include 'LoginView.php'; 
