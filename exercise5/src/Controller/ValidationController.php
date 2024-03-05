@@ -1,7 +1,11 @@
 <?php
-include 'ValidationModel.php';
 
-class UserValidation {
+namespace src\Controller;
+
+use src\Model\ValidationModel;
+
+class ValidationController {
+    
     private $error_message;
     private $sucLogin;
 
@@ -12,7 +16,7 @@ class UserValidation {
             $username = $_POST["uname"];
             $password = $_POST["pass"];
 
-            $credentials = new Validation("erikafuerte", "123456789");
+            $credentials = new ValidationModel("erikafuerte", "123456789");
 
             if($username === $credentials->getUsername() && $password === $credentials->getPassword()) 
             {

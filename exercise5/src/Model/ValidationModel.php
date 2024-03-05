@@ -1,6 +1,8 @@
 <?php 
 
-class Validation 
+namespace src\Model;
+
+class ValidationModel 
 {
 	
 	public function __construct($uname, $pass) 
