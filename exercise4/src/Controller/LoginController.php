@@ -1,7 +1,11 @@
 <?php
-include 'LoginModel.php';
 
-class UserValidation {
+namespace src\Controller;
+
+use src\Model\LoginModel;
+
+class LoginController 
+{
     private $error_message;
     private $sucLogin;
 
@@ -12,7 +16,7 @@ class UserValidation {
             $username = $_POST["uname"];
             $password = $_POST["pass"];
 
-            $credentials = new Login("erikafuerte", "123456789");
+            $credentials = new LoginModel("erikafuerte", "123456789");
 
             if($username === $credentials->getUsername() && $password === $credentials->getPassword()) 
             {

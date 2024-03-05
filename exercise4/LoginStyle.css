@@ -6,7 +6,7 @@ body {
 .login {
     width: 50%;
     margin: auto;
-    min-height: 400px;
+    min-height: 50%;
     box-shadow: 0 8px 50px -7px black;
     background: #f8f8f8;
     text-align: center;
@@ -14,13 +14,6 @@ body {
 
 .red {
     color: red;
-}
-
-.submit {
-    padding: 15px 15px;
-    display: inline-block;
-    font-size: medium;
-    border-radius: 10px;
 }
 
 .submit {
@@ -33,6 +26,9 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    display: inline-block;
+    font-size: medium;
+    border-radius: 10px;
 }
 
 button.monochrome-button:hover {
@@ -67,11 +63,6 @@ button.submit {
 
 button.submit:hover {
     background-color: #555;
-}
-
-.result {
-    margin-top: 20px;
-    font-size: 18px;
 }
 
 h4 {

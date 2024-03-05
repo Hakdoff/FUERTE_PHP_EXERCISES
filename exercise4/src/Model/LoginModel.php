@@ -1,6 +1,8 @@
 <?php 
 
-class Login 
+namespace src\Model;
+
+class LoginModel 
 {
     public function __construct($uname, $pass) 
     {
