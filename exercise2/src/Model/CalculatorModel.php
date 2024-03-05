@@ -1,7 +1,10 @@
 <?php
 
-class Calculator 
+namespace src\Model;
+
+class CalculatorModel
 {
+    
     public $num1;
     public $num2;
     public $operator;

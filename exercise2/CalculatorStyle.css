@@ -6,7 +6,7 @@ body {
 .calculator {
     width: 50%;
     margin: auto;
-    min-height: 400px;
+    height: 60%;
     box-shadow: 0 8px 50px -7px black;
     background: #657889;
     text-align: center;
@@ -84,13 +84,4 @@ button.submit {
 
 button.submit:hover {
     background-color: #555;
-}
-
-.result {
-    margin-top: 20px;
-    font-size: 18px;
-}
-
-h3 {
-    color: black;
 }
