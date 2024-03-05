@@ -1,3 +1,5 @@
+<?php use src\Controller\FibonacciController; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,8 @@
     <title>Fibonacci Sequence</title>  
 </head>
 <body>
+	<?php $print = new FibonacciController; 
+	?>
     <div class="fibonacci"><br>
     	<h1>Fibonacci Series</h1>
 		<form method="POST" action="">
@@ -14,9 +18,7 @@
 		<br> <br>
 		<button class="submit" type="submit">Submit</button>
 		</form>
-		<h4 >
-		<?php include 'FibonacciController.php'; ?>
-		</h4>
+		<h4 ><?php $print->getSeries(); ?></h4>
 	</div>
 </body>
 </html>

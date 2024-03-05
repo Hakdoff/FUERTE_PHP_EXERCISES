@@ -6,19 +6,12 @@ body {
 .fibonacci {
     width: 50%;
     margin: auto;
-    min-height: 400px;
+    min-height: 50%;
     box-shadow: 0 8px 10px -5px black;
     background-color: #f8f8f8;
     text-align: center;
     font-family: Arial, sans-serif;
     padding: 20px;
-}
-
-.submit {
-    padding: 15px 15px;
-    display: inline-block;
-    font-size: medium;
-    border-radius: 10px;
 }
 
 .submit {
@@ -31,13 +24,14 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    display: inline-block;
+    font-size: medium;
+    border-radius: 10px;
 }
 
 button.monochrome-button:hover {
     background-color: #555;
-
     color: #fff;
-
     border: 1px solid #555;
     /* Slightly lighter gray border on hover */
 }
@@ -46,13 +40,4 @@ button.monochrome-button:hover {
 label {
     display: block;
     font-weight: bold;
-}
-
-
-h1 {
-    justify-content: center;
-}
-
-h4 {
-    font-weight: medium;
 }

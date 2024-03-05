@@ -1,6 +1,8 @@
 <?php 
 
-class Fibonacci 
+namespace src\Model;
+
+class FibonacciModel 
 {
     public  function __construct($num,$fnum, $snum) 
     {
