@@ -1,12 +1,12 @@
-<?php
+<?php 
 
 namespace src\View;
 
-class DateTimeView
+class FileView
 {
 
     public function render()
     {
-        include 'DateTime.php';
+        include 'File.php';
     }
 }

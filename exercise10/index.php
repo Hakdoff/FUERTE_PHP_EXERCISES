@@ -6,7 +6,7 @@ spl_autoload_register(function($class)
     require_once $path;
 });
 
-use src\View\DateTimeView;
+use src\View\FileView;
 
-$dateTimeView = new DateTimeView();
-$dateTimeView->render();
+$fileView = new FileView();
+$fileView->render();
