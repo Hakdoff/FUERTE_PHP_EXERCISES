@@ -1,9 +1,9 @@
 <?php
 
-class HelloWorld 
+class HelloWorld
 {
-    
-    public function hello() 
+
+    public function hello()
     {
         echo "Hello, World!";
     }
