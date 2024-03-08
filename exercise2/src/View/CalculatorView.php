@@ -2,10 +2,10 @@
 
 namespace src\View;
 
-class CalculatorView 
+class CalculatorView
 {
 
-    public function render() 
+    public function render()
     {
         include 'Calculator.php';
     }
