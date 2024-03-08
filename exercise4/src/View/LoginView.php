@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 namespace src\View;
 
-class LoginView 
+class LoginView
 {
     public function render()
     {

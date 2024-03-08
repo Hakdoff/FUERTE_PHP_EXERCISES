@@ -1,22 +1,25 @@
-<?php 
+<?php
 
 namespace src\Model;
 
-class LoginModel 
+class LoginModel
 {
-    public function __construct($uname, $pass) 
+    public $username;
+    public $password;
+
+    public function __construct($username, $password)
     {
-    	$this->uname = $uname;
-    	$this->pass = $pass;
+        $this->username = $username;
+        $this->password = $password;
     }
 
-    public function getUsername(): string 
+    public function getUsername(): string
     {
-    	return $this->uname;
+        return $this->username;
     }
 
-    public function getPassword(): string  
+    public function getPassword(): string
     {
-    	return $this->pass;
+        return $this->password;
     }
 }
