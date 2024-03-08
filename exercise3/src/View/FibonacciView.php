@@ -2,10 +2,10 @@
 
 namespace src\View;
 
-class FibonacciView 
+class FibonacciView
 {
 
-    public function render() 
+    public function render()
     {
         include 'FibonacciSeries.php';
     }
