@@ -1,7 +1,10 @@
-<?php use src\Controller\CalculatorController; ?>
+<?php
+
+use src\Controller\CalculatorController; ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,8 +37,9 @@
             <button class="submit" type="submit">Calculate</button>
         </form>
         <h3>
-            <?php echo "Result: " .  $calculatorResult->getResult();?>
+            <?php echo "Result: " .  $calculatorResult->getResult(); ?>
         </h3>
     </div>
 </body>
+
 </html>
